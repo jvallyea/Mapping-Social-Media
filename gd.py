@@ -1,18 +1,7 @@
 import datetime as dt
 from collections import defaultdict
-
-# import matplotlib.pyplot as plt
-# from mpl_toolkits.basemap import Basemap
-
 import numpy as np
 import csv
-
-# import gmplot
-# from bokeh.io import output_file, show
-# from bokeh.models import (
-# GMapPlot, GMapOptions, ColumnDataSource, Circle, DataRange1d, PanTool, WheelZoomTool, BoxSelectTool
-# )
-
 import os
 import urllib
 import zipfile
@@ -140,29 +129,3 @@ with open(date + "Actors" + ".csv", 'wb') as csvfile:
     for i in column_array:
         text = actor_array[i],''
         writer.writerow(text)
-
-
-
-# gmap = gmplot.GoogleMapPlotter(0,0,2)
-# gmap.heatmap(latitude_array, longitude_array)
-# gmap.draw("MAP.html")
-
-# array = range(len(latitude_array))
-#
-# plt.figure(figsize=(12,12))
-#
-# event_map = Basemap(projection='cyl', resolution='l', area_thresh=None,
-#                     lat_0=0, lon_0=0, llcrnrlon=-180, llcrnrlat=-90,
-#                     urcrnrlon=180, urcrnrlat=90)
-# event_map.drawcoastlines()
-# event_map.drawcountries()
-# event_map.fillcontinents(color='0.8')
-# event_map.drawmapboundary()
-# for i in array:
-#     print latitude_array[i]
-#     print longitude_array[i]
-#     print 'end'
-#     x, y = event_map(longitude_array[i], latitude_array[i])
-#     event_map.plot(x,y, 'ro', markersize=2, alpha=0.3)
-#
-# plt.show()
