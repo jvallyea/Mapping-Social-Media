@@ -1,0 +1,1 @@
+This folder stores the images that are used in the "Social and News Media Guide.ipynb" file.
