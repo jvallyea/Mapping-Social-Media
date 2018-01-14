@@ -1,2 +1,0 @@
-# NewsAnalysis
-GDELT Database Analysis
