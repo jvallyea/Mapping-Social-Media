@@ -1,5 +1,5 @@
 # OVERVIEW
-Social media networks like Facebook, Twitter and Instagram exert an immense amount over influence on the way we connect with friends, receive our news, and learn information. But if we pause and take a second to examine our social networks from a quantitative lens, we can see the role we play in the sprawling modern media web. This GitHub repository was borne from my summer work as a movement building intern at the World Resources Institute. To truly catalyze change, we need to first understand the social networks that affect and amplify a movement's magnitude. 
+Social media networks like Facebook, Twitter and Instagram exert an immense amount of influence on the way we connect with friends, receive our news, and learn information. But if we pause and take a second to examine our social networks from a quantitative lens, we can see the role we play in the sprawling modern media web. This GitHub repository was borne from my summer work as a movement building intern at the World Resources Institute. To truly catalyze change, we need to first understand the social networks that affect and amplify a movement's magnitude. 
 <br/> <br/>
 Twitter is a particularly interesting social media network, as it has an easily-understandable structure, allowing for principles of statistics and graph theory to be translated with little modification. 
 # TWITTER
